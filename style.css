@@ -1,0 +1,189 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1abc9c;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.claim-button {
+    background-color: #f39c12;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.claim-button:hover {
+    background-color: #e67e22;
+}
+
+/* Coupons Section */
+.coupons-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.coupons-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#coupon-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#coupon-list li {
+    background-color: #ecf0f1;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* Article Section */
+.article-section {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.article-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.article-section h3 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+.article-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.faq-section h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-section h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar nav ul {
+        display: block;
+    }
+
+    .navbar nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1.1em;
+    }
+
+    .claim-button {
+        font-size: 1em;
+        padding: 12px 25px;
+    }
+
+    .article-section h2 {
+        font-size: 2em;
+    }
+
+    .article-section h3 {
+        font-size: 1.8em;
+    }
+
+    .faq-section h2 {
+        font-size: 2em;
+    }
+}
